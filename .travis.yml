@@ -12,7 +12,7 @@ before_install:
 jobs:
   include:
     - name: "Check commits"
-      script: perl test-branch-commit-messages-in-travis.pl
+      script: perl .test-branch-commit-messages-in-travis.pl
     - name: "Unit tests"
       script: make test
     - name: "Code coverage"
