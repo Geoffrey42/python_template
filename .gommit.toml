@@ -1,7 +1,7 @@
 [config]
 exclude-merge-commits=true
 check-summary-length=true
-summary-length=50
+summary-length=80
 
 [matchers]
 all="(?:ref|feat|test|fix|style|ci|perf|chores|docs|revert|build)\\(.*?\\): .*?\n?(?:\n?(?:\\* |  ).*?\n)*"
