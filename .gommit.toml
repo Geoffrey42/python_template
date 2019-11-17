@@ -4,7 +4,7 @@ check-summary-length=true
 summary-length=50
 
 [matchers]
-all="(?:ref|feat|test|fix|style|ci|perf|chores|docs|revert|build)\\(.*?\\): .*?\n(?:\n?(?:\\* |  ).*?\n)*"
+all="(?:ref|feat|test|fix|style|ci|perf|chores|docs|revert|build)\\(.*?\\): .*?\n?(?:\n?(?:\\* |  ).*?\n)*"
 
 [examples]
 a_simple_commit="""
