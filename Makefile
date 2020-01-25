@@ -7,6 +7,9 @@ test: FORCE
 cov:
 	@pytest --cov-report term-missing --cov=src tests
 
+hook:
+	@git config --local core.hooksPath "./.hooks"
+
 report: generate
 	@pytest --cov-report annotate:reports --cov=src tests
 	@rm reports/python_template___init__.py,cover
